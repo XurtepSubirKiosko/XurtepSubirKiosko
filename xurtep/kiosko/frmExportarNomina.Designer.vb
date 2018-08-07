@@ -35,10 +35,10 @@ Partial Class frmExportarNomina
         Me.tsbProcesar = New System.Windows.Forms.ToolStripButton()
         Me.tsbCancelar = New System.Windows.Forms.ToolStripButton()
         Me.pnlCatalogo = New System.Windows.Forms.Panel()
+        Me.txtcarpeta = New System.Windows.Forms.TextBox()
+        Me.chkNominaB = New System.Windows.Forms.CheckBox()
         Me.chkAll = New System.Windows.Forms.CheckBox()
         Me.lsvLista = New System.Windows.Forms.ListView()
-        Me.chkNominaB = New System.Windows.Forms.CheckBox()
-        Me.txtcarpeta = New System.Windows.Forms.TextBox()
         Me.pnlProgreso.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.pnlCatalogo.SuspendLayout()
@@ -158,8 +158,8 @@ Partial Class frmExportarNomina
         'pnlCatalogo
         '
         Me.pnlCatalogo.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pnlCatalogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.pnlCatalogo.Controls.Add(Me.txtcarpeta)
         Me.pnlCatalogo.Controls.Add(Me.chkNominaB)
@@ -170,6 +170,25 @@ Partial Class frmExportarNomina
         Me.pnlCatalogo.Name = "pnlCatalogo"
         Me.pnlCatalogo.Size = New System.Drawing.Size(808, 426)
         Me.pnlCatalogo.TabIndex = 34
+        '
+        'txtcarpeta
+        '
+        Me.txtcarpeta.Location = New System.Drawing.Point(209, 0)
+        Me.txtcarpeta.Name = "txtcarpeta"
+        Me.txtcarpeta.Size = New System.Drawing.Size(221, 27)
+        Me.txtcarpeta.TabIndex = 6
+        '
+        'chkNominaB
+        '
+        Me.chkNominaB.AutoSize = True
+        Me.chkNominaB.BackColor = System.Drawing.Color.Transparent
+        Me.chkNominaB.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkNominaB.Location = New System.Drawing.Point(116, 3)
+        Me.chkNominaB.Name = "chkNominaB"
+        Me.chkNominaB.Size = New System.Drawing.Size(87, 22)
+        Me.chkNominaB.TabIndex = 5
+        Me.chkNominaB.Text = "Nomina B"
+        Me.chkNominaB.UseVisualStyleBackColor = False
         '
         'chkAll
         '
@@ -186,8 +205,8 @@ Partial Class frmExportarNomina
         'lsvLista
         '
         Me.lsvLista.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lsvLista.CheckBoxes = True
         Me.lsvLista.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lsvLista.FullRowSelect = True
@@ -200,25 +219,6 @@ Partial Class frmExportarNomina
         Me.lsvLista.TabIndex = 2
         Me.lsvLista.UseCompatibleStateImageBehavior = False
         Me.lsvLista.View = System.Windows.Forms.View.Details
-        '
-        'chkNominaB
-        '
-        Me.chkNominaB.AutoSize = True
-        Me.chkNominaB.BackColor = System.Drawing.Color.Transparent
-        Me.chkNominaB.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkNominaB.Location = New System.Drawing.Point(116, 3)
-        Me.chkNominaB.Name = "chkNominaB"
-        Me.chkNominaB.Size = New System.Drawing.Size(87, 22)
-        Me.chkNominaB.TabIndex = 5
-        Me.chkNominaB.Text = "Nomina B"
-        Me.chkNominaB.UseVisualStyleBackColor = False
-        '
-        'txtcarpeta
-        '
-        Me.txtcarpeta.Location = New System.Drawing.Point(209, 0)
-        Me.txtcarpeta.Name = "txtcarpeta"
-        Me.txtcarpeta.Size = New System.Drawing.Size(221, 27)
-        Me.txtcarpeta.TabIndex = 6
         '
         'frmExportarNomina
         '
