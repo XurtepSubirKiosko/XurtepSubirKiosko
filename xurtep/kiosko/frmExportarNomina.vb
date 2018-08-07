@@ -460,5 +460,6 @@ Public Class frmExportarNomina
 
     Private Sub frmExportarNomina_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         'Cambio
+        'dos
     End Sub
 End Class
